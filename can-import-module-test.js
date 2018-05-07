@@ -1,15 +1,15 @@
 'use strict';
 
 var QUnit = require('steal-qunit');
-var load = require('./can-importer');
+var load = require('./can-import-module');
 var isNode = require('can-globals/is-node/is-node')();
 
 if(!isNode) {
-	QUnit.module('can-util/js/import');
+	QUnit.module('can-import-module');
 
 	if (__dirname !== '/') {
 		QUnit.test('basic can-import works', function(assert) {
-			return load('can-importer/test/test-module', __dirname).then(function(data) {
+			return load('can-import-module/test/test-module', __dirname).then(function(data) {
 				assert.equal(data, 'Hello world');
 			}).then(null, function(err){
 				assert.ok(false, err);
@@ -42,7 +42,7 @@ if(!isNode) {
 	});
 
 	QUnit.test('basic can-import works', function(assert) {
-		return load('can-importer/test/test-module', __dirname).then(function(data) {
+		return load('can-import-module/test/test-module', __dirname).then(function(data) {
 			assert.equal(data, 'Hello world');
 		}).then(null, function(err){
 			assert.ok(false, err);

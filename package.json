@@ -1,11 +1,11 @@
 {
-  "name": "can-importer",
+  "name": "can-import-module",
   "version": "1.0.0",
   "description": "",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/canjs/can-importer.git"
+    "url": "git://github.com/canjs/can-import-module.git"
   },
   "author": {
     "name": "",
@@ -25,7 +25,7 @@
     "build": "node build.js",
     "develop": "done-serve --static --develop --port 8080"
   },
-  "main": "can-importer.js",
+  "main": "can-import-module.js",
   "keywords": [
     "canjs",
     "donejs-plugin"
