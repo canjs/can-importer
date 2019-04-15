@@ -1,6 +1,6 @@
 # can-import-module
 
-[![Build Status](https://travis-ci.org/canjs/can-import-module.svg?branch=master)](https://travis-ci.org/canjs/can-import-module)
+[![Build Status](https://travis-ci.org/canjs/can-import-module.svg?branch=master)](https://travis-ci.org/canjs/can-import-module) [![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-import-module.svg)](https://greenkeeper.io/)
 
 
 
