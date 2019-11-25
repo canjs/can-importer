@@ -7,6 +7,7 @@ var namespace = require("can-namespace");
  * @module {function} can-util/js/import/import import
  * @parent can-util/js
  * @signature `importModule(moduleName, parentName)`
+ * @hide
  *
  * ```js
  * var importModule = require("can-util/js/import/import");
